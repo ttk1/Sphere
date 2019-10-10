@@ -1,0 +1,21 @@
+{
+  "name": "sphere",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "dist": "webpack --mode=production"
+  },
+  "author": "tama@ttk1.net",
+  "license": "MIT",
+  "description": "Drawing a sphere with WebGL2.0",
+  "dependencies": {
+    "@types/webgl2": "0.0.5",
+    "raw-loader": "^3.1.0",
+    "ts-loader": "^6.2.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
