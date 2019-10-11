@@ -58,8 +58,8 @@ window.onload = () => {
       let diffX: number;
       let diffY: number;
       if (mouseX == null || mouseY == null) {
-        diffX = event.offsetX;
-        diffY = event.offsetY;
+        diffX = 0;
+        diffY = 0;
       } else {
         diffX = mouseX - event.offsetX;
         diffY = mouseY - event.offsetY;
