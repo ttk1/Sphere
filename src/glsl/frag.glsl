@@ -7,7 +7,7 @@ uniform sampler2D tex;
 uniform vec2 size;
 uniform mat4 rot;
 
-const vec4 ray = vec4(1.0, 1.0, 0.0, 1.0);
+const vec4 ray = vec4(0.0, 0.0, 1.0, 1.0);
 const float radius = 0.8;
 
 void main() {
